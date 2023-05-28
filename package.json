@@ -1,0 +1,15 @@
+{
+  "name": "loremipsum.net",
+  "version": "1.0.0",
+  "description": "Lorem ipsum dolor sit amet.",
+  "private": "true",
+  "scripts": {
+    "watch": "sass --watch src/sass:public/css",
+    "build": "sass --no-source-map --style=compressed src/sass:public/css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.62.1"
+  }
+}
