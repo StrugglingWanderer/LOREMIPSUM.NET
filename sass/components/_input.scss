@@ -34,7 +34,7 @@ $input-border-radius: 5px;
     right: 16px;
     width: 9px;
     background: center no-repeat
-      url('../../../public/images/icons/dropdown-arrow-close.svg');
+      url('../../../images/icons/dropdown-arrow-close.svg');
     transition: transform 300ms;
   }
 
@@ -47,7 +47,7 @@ $input-border-radius: 5px;
 
     &::after {
       transform: rotate(180deg);
-      background-image: url('../../../public/images/icons/dropdown-arrow-open.svg');
+      background-image: url('../../../images/icons/dropdown-arrow-open.svg');
     }
   }
 

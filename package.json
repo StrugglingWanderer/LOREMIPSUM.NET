@@ -4,8 +4,8 @@
   "description": "Lorem ipsum dolor sit amet.",
   "private": "true",
   "scripts": {
-    "watch": "sass --watch src/sass:public/css",
-    "build": "sass --no-source-map --style=compressed src/sass:public/css"
+    "watch": "sass --watch sass:css",
+    "build": "sass --no-source-map --style=compressed sass:css"
   },
   "author": "",
   "license": "ISC",
